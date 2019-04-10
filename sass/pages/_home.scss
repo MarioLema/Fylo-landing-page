@@ -1,13 +1,17 @@
 .intro-section {
-	height: 40rem;
+	height: 17rem;
 	text-align: center;
 	padding: 3rem 0;
+	position: relative;
 }
-.intro-section  h1{
-    font-size: 1.5rem;
+.intro-section h1 {
+	font-size: 1.5rem;
 	max-width: 21rem;
 	margin: auto;
 	line-height: 2.2rem;
+	margin-top: -7rem;
+	z-index: 2000;
+	position: relative;
 }
 .intro-section p{
         line-height: 1.3rem;
@@ -16,6 +20,9 @@
 }
 .intro-illustration {
 	height: 14rem;
+	margin-top: 3rem;
+    z-index: 200;
+    position: relative;
 }
 .image-headers {
 	position: relative;
@@ -24,8 +31,7 @@
 .bg-curve {
 	position: absolute;
 	left: 0;
-	bottom: -6rem;
-	z-index: -5;
+	top: -8.5rem;
 }
 //==========================
 .pros-section {

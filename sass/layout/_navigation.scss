@@ -1,10 +1,16 @@
+header{
+	text-align: center;
+	height: 26rem;
+	background: $Dark-Blue-1;
+	position: relative;
+}
 nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 1.5rem;
-	margin-left: 1.1rem;
-	margin-right: 1.1rem;
+	padding-top: 1.5rem;
+	padding-left: 1.1rem;
+	padding-right: 1.1rem;
 	color: #d2d2d2;
 	font-size: 0.8rem;
 	font-family: 'Raleway', sans-serif;

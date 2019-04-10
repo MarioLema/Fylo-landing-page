@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
@@ -19,31 +19,28 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-
-    .temp-p {
-      margin-top: 800rem;
-    }
   </style>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-  <img src="design/mobile-design.jpg" alt="" class="base-image">
-  <nav>
-    <img src="images/logo.svg" alt="fylo logo" class="home-logo">
-    <ul class="nav-menu">
-      <li class="nav-menu__item">Features</li>
-      <li class="nav-menu__item">Team</li>
-      <li class="nav-menu__item">Sign In</li>
-    </ul>
-  </nav>
-  <section class="intro-section">
-    <div class="image-headers">
-      <img src="images/illustration-intro.png" alt="" class="intro-illustration">
-      <img src="images/bg-curvy-mobile.svg" alt="" class="bg-curve">
-    </div>
+  <!-- <img src="design/mobile-design.jpg" alt="" class="base-image"> -->
+  <header>
+      <nav>
+          <img src="images/logo.svg" alt="fylo logo" class="home-logo">
+          <ul class="nav-menu">
+            <li class="nav-menu__item">Features</li>
+            <li class="nav-menu__item">Team</li>
+            <li class="nav-menu__item">Sign In</li>
+          </ul>
+        </nav>
+        <img src="images/illustration-intro.png" alt="" class="intro-illustration">
 
+  </header>
+
+  <section class="intro-section">
+      <img src="images/bg-curvy-mobile.svg" alt="" class="bg-curve">
     <h1>All your files in one secure location, accessible anywhere.</h1>
     <p>Fylo stores all your most important files in one secure location. Access them wherever
       you need, share and collaborate with friends family, and co-workers.</p>
@@ -127,17 +124,17 @@
       <h3>Get early access today</h3>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
         questions, our support team would be happy to help you.</p>
-      <input class="email-input" type="email" name="" id="">
+      <input class="email-input" type="email" name="" id="" placeholder="email@example">
       <input class="submit-button" type="button" value="Get Started For Free">
     </form>
   </section>
   <footer>
     <img src="images/logo.svg" alt="" class="footer-logo">
     <ul class="footer-list">
-      <li><address> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua</address></li>
-          <li><a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
-          <li><a href="mailto:example@fylo.com">example@fylo.com</a></li>
+      <li><img src="images/icon-location.svg" alt=""><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua</p></li>
+          <li><img src="images/icon-phone.svg" alt=""><a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
+          <li><img src="images/icon-email.svg" alt=""><a href="mailto:example@fylo.com">example@fylo.com</a></li>
     </ul>
     <ul class="footer-list">
       <li><a href="#">About Us</a></li>
@@ -150,10 +147,10 @@
       <li><a href="#">Terms</a></li>
       <li><a href="#">Privacy</a></li>
     </ul>
-    <ul class="footer-list">
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
+    <ul class="footer-list social-links">
+      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
     </ul>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

@@ -1,9 +1,10 @@
 .testimonial-card {
 	max-width: 17.5rem;
-	background: #0000ff69;
+	background:$Dark-Blue-4;
 	border-radius: 5px;
-    padding: 2rem 1.5rem 0.8rem 1.3rem;
-    position: relative;
+	padding: 2rem 1.5rem 0.8rem 1.3rem;
+	position: relative;
+	box-shadow: 0px 0px 2px 0px rgba(125, 125, 125, 0.16);
 }
 .testimonial-card p {
 	font-size: 0.6rem;
@@ -29,7 +30,7 @@
 	border-radius: unset;
 	position: absolute;
 	height: 1.2rem;
-	top: -0.7rem;
+	top: -1rem;
 	left: 0.3rem;
 	z-index: -1;
 }

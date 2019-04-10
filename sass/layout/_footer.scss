@@ -1,6 +1,46 @@
 footer {
-	background: #33742357;
+	background: $Dark-Blue-3;
 	padding-top: 15.7rem;
-	padding-left: 2.5rem;
+	padding-left: 1.5rem;
 	padding-right: 2.5rem;
+}
+.footer-logo{
+    margin-left: 1rem;
+    margin-bottom:2.5rem;
+}
+.footer-list {
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: 4rem;
+	font-size: 1rem;
+}
+.footer-list li {
+	display: flex;
+	align-items: start;
+	margin-bottom: 1.5rem;
+}
+.footer-list a {
+text-decoration: none;
+color: $White;
+}
+.footer-list img{
+    height: 1rem;
+    margin-right: 2rem;
+}
+.footer-list p{
+    display: inline;
+}
+.social-links {
+	display: flex;
+	justify-content: center;
+}
+.social-links li {
+	border: solid white 1px;
+	font-size: 0.7rem;
+	width: 1.7rem;
+	height: 1.7rem;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0.5rem;
 }

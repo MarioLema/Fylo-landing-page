@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background: #181f2b; }
+
 @media (hover: hover) {
   a:hover {
     color: grey !important; } }
@@ -19,15 +22,19 @@ h1 {
   font-family: 'Raleway', sans-serif; }
 
 .intro-section {
-  height: 40rem;
+  height: 17rem;
   text-align: center;
-  padding: 3rem 0; }
+  padding: 3rem 0;
+  position: relative; }
 
 .intro-section h1 {
   font-size: 1.5rem;
   max-width: 21rem;
   margin: auto;
-  line-height: 2.2rem; }
+  line-height: 2.2rem;
+  margin-top: -7rem;
+  z-index: 2000;
+  position: relative; }
 
 .intro-section p {
   line-height: 1.3rem;
@@ -35,7 +42,10 @@ h1 {
   margin: 1rem auto; }
 
 .intro-illustration {
-  height: 14rem; }
+  height: 14rem;
+  margin-top: 3rem;
+  z-index: 200;
+  position: relative; }
 
 .image-headers {
   position: relative;
@@ -44,8 +54,7 @@ h1 {
 .bg-curve {
   position: absolute;
   left: 0;
-  bottom: -6rem;
-  z-index: -5; }
+  top: -8.5rem; }
 
 .pros-section {
   height: 75rem;
@@ -139,10 +148,11 @@ h1 {
 
 .testimonial-card {
   max-width: 17.5rem;
-  background: #0000ff69;
+  background: #20293b;
   border-radius: 5px;
   padding: 2rem 1.5rem 0.8rem 1.3rem;
-  position: relative; }
+  position: relative;
+  box-shadow: 0px 0px 2px 0px rgba(125, 125, 125, 0.16); }
 
 .testimonial-card p {
   font-size: 0.6rem;
@@ -168,13 +178,13 @@ h1 {
   border-radius: unset;
   position: absolute;
   height: 1.2rem;
-  top: -0.7rem;
+  top: -1rem;
   left: 0.3rem;
   z-index: -1; }
 
 .signup-form {
   position: absolute;
-  background: #ff000038;
+  background: #1b2330;
   height: 22rem;
   width: 21rem;
   bottom: -11rem;
@@ -185,7 +195,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0.5rem 1.9rem; }
+  padding: 0.5rem 1.9rem;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.24); }
 
 .signup-form h3 {
   font-size: 1.1rem; }
@@ -207,21 +218,70 @@ h1 {
   height: 3rem;
   border-radius: 28px;
   border: none;
-  background: #ffffff38; }
+  background: white;
+  padding-left: 2rem;
+  color: #808080a6;
+  font-size: 0.7rem; }
 
 footer {
-  background: #33742357;
+  background: #0a1423;
   padding-top: 15.7rem;
-  padding-left: 2.5rem;
+  padding-left: 1.5rem;
   padding-right: 2.5rem; }
+
+.footer-logo {
+  margin-left: 1rem;
+  margin-bottom: 2.5rem; }
+
+.footer-list {
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 4rem;
+  font-size: 1rem; }
+
+.footer-list li {
+  display: flex;
+  align-items: start;
+  margin-bottom: 1.5rem; }
+
+.footer-list a {
+  text-decoration: none;
+  color: white; }
+
+.footer-list img {
+  height: 1rem;
+  margin-right: 2rem; }
+
+.footer-list p {
+  display: inline; }
+
+.social-links {
+  display: flex;
+  justify-content: center; }
+
+.social-links li {
+  border: solid white 1px;
+  font-size: 0.7rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.5rem; }
+
+header {
+  text-align: center;
+  height: 26rem;
+  background: #1b2330;
+  position: relative; }
 
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1.5rem;
-  margin-left: 1.1rem;
-  margin-right: 1.1rem;
+  padding-top: 1.5rem;
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
   color: #d2d2d2;
   font-size: 0.8rem;
   font-family: 'Raleway', sans-serif; }
