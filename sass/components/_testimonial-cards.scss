@@ -1,0 +1,35 @@
+.testimonial-card {
+	max-width: 17.5rem;
+	background: #0000ff69;
+	border-radius: 5px;
+    padding: 2rem 1.5rem 0.8rem 1.3rem;
+    position: relative;
+}
+.testimonial-card p {
+	font-size: 0.6rem;
+	line-height: 1.1rem;
+}
+.testimonial-card img{
+	height: 1.5rem;
+	border-radius: 50%;
+	float: left;
+	margin-right: 0.5rem;
+}
+.testimonial-card div{
+	margin-top: 0.8rem;
+}
+.testimonial-card div p{
+	font-size: 0.5rem;
+}
+.testimonial-card h6{
+	letter-spacing: 0.6px;
+	font-size: 0.6rem;
+}
+#decorative-quotes {
+	border-radius: unset;
+	position: absolute;
+	height: 1.2rem;
+	top: -0.7rem;
+	left: 0.3rem;
+	z-index: -1;
+}

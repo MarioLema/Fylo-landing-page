@@ -1,0 +1,19 @@
+.pro-info-card{
+        height: 13rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+}
+.pro-info-card img {
+	height: 4rem;
+	margin-bottom: 2rem;
+}
+.pro-info-card p {
+	max-width: 20rem;
+	margin: auto;
+}
+.pro-info-card h3 {
+	font-size: 1.1rem;
+	line-height: 1.2rem;
+}

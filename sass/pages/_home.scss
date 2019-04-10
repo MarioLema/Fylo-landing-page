@@ -1,0 +1,94 @@
+.intro-section {
+	height: 40rem;
+	text-align: center;
+	padding: 3rem 0;
+}
+.intro-section  h1{
+    font-size: 1.5rem;
+	max-width: 21rem;
+	margin: auto;
+	line-height: 2.2rem;
+}
+.intro-section p{
+        line-height: 1.3rem;
+        max-width: 18rem;
+        margin: 1rem auto;
+}
+.intro-illustration {
+	height: 14rem;
+}
+.image-headers {
+	position: relative;
+	margin-bottom: 2rem;
+}
+.bg-curve {
+	position: absolute;
+	left: 0;
+	bottom: -6rem;
+	z-index: -5;
+}
+//==========================
+.pros-section {
+	height: 75rem;
+	text-align: center;
+	padding: 5rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+//==========================
+.productive-section {
+    height: 40rem;
+    text-align: center;
+}
+.productive-section div{
+    text-align: left;
+    max-width: 20rem;
+    margin: auto;
+}
+.productive-section h3 {
+	font-size: 1.2rem;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+.productive-section p {
+	margin: 0.9rem auto;
+	text-align: left;
+	line-height: 1.3rem;
+}
+.productive-section a {
+	color: $Cyan;
+	font-size: 0.8rem;
+	word-spacing: 0.1rem;
+	text-decoration: none;
+	border-bottom: solid 1px;
+	padding-bottom: 0.3rem;
+}
+.productive-section a i{
+	color: black;
+	background: cyan;
+	padding: 0.2rem;
+	font-size: 0.5rem;
+	border-radius: 50%;
+}
+.productive-image {
+	width: 80%;
+	margin: auto;
+	margin-top: 4.5rem;
+	margin-bottom: 3rem;
+}
+//==============================
+.testimonials-section {
+	height: 45rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 4rem 0;
+}
+//==============================
+.newsletter-signup {
+	height: 15rem;
+	position: relative;
+}
