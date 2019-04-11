@@ -13,13 +13,38 @@
 	justify-content: space-evenly;
 	padding: 0.5rem 1.9rem;
 	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.24);
+
+	@include responsive(laptop){
+		height: 17rem;
+		width: 54rem;
+		bottom: -7rem;
+	}
 }
 .signup-form h3{
 	font-size: 1.1rem;
+
+	@include responsive(laptop){
+		font-size: 2rem;
+	}
 }
 .signup-form p{
 	text-align: center;
 	line-height: 1.2rem;
+
+	@include responsive(laptop){
+		text-align: center;
+		line-height: 1.2rem;
+		max-width: 39rem;
+	}
+}
+.signup-form div{
+	width: 100%;
+
+	@include responsive(laptop){
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+	}
 }
 .submit-button{
         width: 100%;
@@ -27,7 +52,11 @@
         border-radius: 28px;
         border: none;
         background: $Cyan;
-        color: $White;
+		color: $White;
+		
+		@include responsive(laptop){
+			width: 14rem;
+		}
 }
 .email-input {
 	width: 100%;
@@ -38,4 +67,8 @@
 	padding-left: 2rem;
 	color: #808080a6;
 	font-size: 0.7rem;
+
+	@include responsive(laptop){
+		width: 31rem;
+	}
 }

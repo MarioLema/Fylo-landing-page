@@ -3,7 +3,12 @@
 	text-align: center;
 	padding: 3rem 0;
 	position: relative;
+
+	@include responsive(laptop) {
+		height: 0rem;
+	}
 }
+
 .intro-section h1 {
 	font-size: 1.5rem;
 	max-width: 21rem;
@@ -12,27 +17,53 @@
 	margin-top: -7rem;
 	z-index: 2000;
 	position: relative;
+
+	@include responsive(laptop) {
+		font-size: 2.5rem;
+		max-width: 50%;
+		line-height: 3.5rem;
+		margin-top: -64vh;
+	}
 }
-.intro-section p{
-        line-height: 1.3rem;
-        max-width: 18rem;
-        margin: 1rem auto;
+
+.intro-section p {
+	line-height: 1.3rem;
+	max-width: 18rem;
+	margin: 1rem auto;
+
+	@include responsive(laptop) {
+		line-height: 1.8rem;
+		max-width: 39rem;
+		margin: 2.3rem auto;
+		font-size: 1.3rem;
+	}
 }
+
 .intro-illustration {
 	height: 14rem;
 	margin-top: 3rem;
-    z-index: 200;
-    position: relative;
+	z-index: 200;
+	position: relative;
+
+	@include responsive(laptop) {
+		height: auto;
+		margin-top: 4rem;
+		width: 51%;
+	}
 }
+
 .image-headers {
 	position: relative;
 	margin-bottom: 2rem;
 }
+
 .bg-curve {
 	position: absolute;
 	left: 0;
-	top: -8.5rem;
+	bottom: 0;
+	width: 100%;
 }
+
 //==========================
 .pros-section {
 	height: 75rem;
@@ -42,27 +73,72 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+
+
+	@include responsive(laptop) {
+		height: 42rem;
+		max-width: 68rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		margin: auto;
+		margin-top: -24vh;
+		position: relative;
+	}
 }
+
 //==========================
 .productive-section {
-    height: 40rem;
-    text-align: center;
+	height: 40rem;
+	text-align: center;
+
+
+	@include responsive(laptop) {
+		height: 35rem;
+		text-align: center;
+		display: flex;
+		max-width: 90rem;
+		margin: auto;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
-.productive-section div{
-    text-align: left;
-    max-width: 20rem;
-    margin: auto;
+
+.productive-section div {
+	text-align: left;
+	max-width: 20rem;
+	margin: auto;
+
+	@include responsive(laptop) {
+		margin: 0;
+		margin-right: 7rem;
+		max-width: 34rem;
+	}
 }
+
 .productive-section h3 {
 	font-size: 1.2rem;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+
+	@include responsive(laptop){
+		font-size: 2.8rem;
+		font-family: 'Raleway', sans-serif;
+		text-align: left;
+	}
 }
+
 .productive-section p {
 	margin: 0.9rem auto;
 	text-align: left;
 	line-height: 1.3rem;
+
+	@include responsive(laptop){
+		margin: 1rem auto;
+		font-size: 1.1rem;
+	}
 }
+
 .productive-section a {
 	color: $Cyan;
 	font-size: 0.8rem;
@@ -70,20 +146,35 @@
 	text-decoration: none;
 	border-bottom: solid 1px;
 	padding-bottom: 0.3rem;
+
+	@include responsive(laptop){
+		font-size: 1.1rem;
+		display: inline-block;
+		margin-top: 1rem;
+	}
 }
-.productive-section a i{
+
+.productive-section a i {
 	color: black;
 	background: cyan;
 	padding: 0.2rem;
 	font-size: 0.5rem;
 	border-radius: 50%;
 }
+
 .productive-image {
 	width: 80%;
 	margin: auto;
 	margin-top: 4.5rem;
 	margin-bottom: 3rem;
+
+	@include responsive(laptop) {
+		width: auto;
+		margin: 0;
+		margin-left: 6rem;
+	}
 }
+
 //==============================
 .testimonials-section {
 	height: 45rem;
@@ -92,9 +183,22 @@
 	align-items: center;
 	justify-content: space-evenly;
 	padding: 4rem 0;
+
+	@include responsive(laptop){
+		height: 27rem;
+		flex-direction: row;
+		max-width: 74rem;
+		margin: auto;
+		justify-content: space-around;
+	}
 }
+
 //==============================
 .newsletter-signup {
 	height: 15rem;
 	position: relative;
+
+	@include responsive(laptop){
+		height: 16rem;
+	}
 }

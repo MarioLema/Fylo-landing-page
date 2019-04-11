@@ -26,6 +26,9 @@ h1 {
   text-align: center;
   padding: 3rem 0;
   position: relative; }
+  @media screen and (min-width: 375px) {
+    .intro-section {
+      height: 0rem; } }
 
 .intro-section h1 {
   font-size: 1.5rem;
@@ -35,17 +38,34 @@ h1 {
   margin-top: -7rem;
   z-index: 2000;
   position: relative; }
+  @media screen and (min-width: 375px) {
+    .intro-section h1 {
+      font-size: 2.5rem;
+      max-width: 50%;
+      line-height: 3.5rem;
+      margin-top: -64vh; } }
 
 .intro-section p {
   line-height: 1.3rem;
   max-width: 18rem;
   margin: 1rem auto; }
+  @media screen and (min-width: 375px) {
+    .intro-section p {
+      line-height: 1.8rem;
+      max-width: 39rem;
+      margin: 2.3rem auto;
+      font-size: 1.3rem; } }
 
 .intro-illustration {
   height: 14rem;
   margin-top: 3rem;
   z-index: 200;
   position: relative; }
+  @media screen and (min-width: 375px) {
+    .intro-illustration {
+      height: auto;
+      margin-top: 4rem;
+      width: 51%; } }
 
 .image-headers {
   position: relative;
@@ -54,7 +74,8 @@ h1 {
 .bg-curve {
   position: absolute;
   left: 0;
-  top: -8.5rem; }
+  bottom: 0;
+  width: 100%; }
 
 .pros-section {
   height: 75rem;
@@ -64,25 +85,58 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
+  @media screen and (min-width: 375px) {
+    .pros-section {
+      height: 42rem;
+      max-width: 68rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      margin: auto;
+      margin-top: -24vh;
+      position: relative; } }
 
 .productive-section {
   height: 40rem;
   text-align: center; }
+  @media screen and (min-width: 375px) {
+    .productive-section {
+      height: 35rem;
+      text-align: center;
+      display: flex;
+      max-width: 90rem;
+      margin: auto;
+      align-items: center;
+      justify-content: space-between; } }
 
 .productive-section div {
   text-align: left;
   max-width: 20rem;
   margin: auto; }
+  @media screen and (min-width: 375px) {
+    .productive-section div {
+      margin: 0;
+      margin-right: 7rem;
+      max-width: 34rem; } }
 
 .productive-section h3 {
   font-size: 1.2rem;
   font-family: 'Raleway', sans-serif;
   text-align: center; }
+  @media screen and (min-width: 375px) {
+    .productive-section h3 {
+      font-size: 2.8rem;
+      font-family: 'Raleway', sans-serif;
+      text-align: left; } }
 
 .productive-section p {
   margin: 0.9rem auto;
   text-align: left;
   line-height: 1.3rem; }
+  @media screen and (min-width: 375px) {
+    .productive-section p {
+      margin: 1rem auto;
+      font-size: 1.1rem; } }
 
 .productive-section a {
   color: #64e1d9;
@@ -91,6 +145,11 @@ h1 {
   text-decoration: none;
   border-bottom: solid 1px;
   padding-bottom: 0.3rem; }
+  @media screen and (min-width: 375px) {
+    .productive-section a {
+      font-size: 1.1rem;
+      display: inline-block;
+      margin-top: 1rem; } }
 
 .productive-section a i {
   color: black;
@@ -104,6 +163,11 @@ h1 {
   margin: auto;
   margin-top: 4.5rem;
   margin-bottom: 3rem; }
+  @media screen and (min-width: 375px) {
+    .productive-image {
+      width: auto;
+      margin: 0;
+      margin-left: 6rem; } }
 
 .testimonials-section {
   height: 45rem;
@@ -112,10 +176,20 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   padding: 4rem 0; }
+  @media screen and (min-width: 375px) {
+    .testimonials-section {
+      height: 27rem;
+      flex-direction: row;
+      max-width: 74rem;
+      margin: auto;
+      justify-content: space-around; } }
 
 .newsletter-signup {
   height: 15rem;
   position: relative; }
+  @media screen and (min-width: 375px) {
+    .newsletter-signup {
+      height: 16rem; } }
 
 .intro-button {
   border: none;
@@ -126,6 +200,16 @@ h1 {
   border-radius: 24px;
   margin-top: 1rem;
   font-weight: bold; }
+  @media screen and (min-width: 375px) {
+    .intro-button {
+      border: none;
+      width: 17.5rem;
+      height: 3.5rem;
+      background: #329ecc;
+      color: white;
+      border-radius: 42px;
+      margin-top: 0rem;
+      font-weight: bold; } }
 
 .pro-info-card {
   height: 13rem;
@@ -133,14 +217,26 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: space-around; }
+  @media screen and (min-width: 375px) {
+    .pro-info-card {
+      height: 13rem; } }
 
 .pro-info-card img {
   height: 4rem;
   margin-bottom: 2rem; }
+  @media screen and (min-width: 375px) {
+    .pro-info-card img {
+      height: 5rem;
+      margin-bottom: 0.5rem; } }
 
 .pro-info-card p {
   max-width: 20rem;
   margin: auto; }
+  @media screen and (min-width: 375px) {
+    .pro-info-card p {
+      max-width: 22rem;
+      margin: auto;
+      font-size: 0.9rem; } }
 
 .pro-info-card h3 {
   font-size: 1.1rem;
@@ -153,10 +249,18 @@ h1 {
   padding: 2rem 1.5rem 0.8rem 1.3rem;
   position: relative;
   box-shadow: 0px 0px 2px 0px rgba(125, 125, 125, 0.16); }
+  @media screen and (min-width: 375px) {
+    .testimonial-card {
+      max-width: 22.5rem;
+      padding: 2.9rem 1.6rem 1rem 1.4rem; } }
 
 .testimonial-card p {
   font-size: 0.6rem;
   line-height: 1.1rem; }
+  @media screen and (min-width: 375px) {
+    .testimonial-card p {
+      font-size: 0.9rem;
+      line-height: 1.3rem; } }
 
 .testimonial-card img {
   height: 1.5rem;
@@ -166,6 +270,9 @@ h1 {
 
 .testimonial-card div {
   margin-top: 0.8rem; }
+  @media screen and (min-width: 375px) {
+    .testimonial-card div {
+      margin-top: 1rem; } }
 
 .testimonial-card div p {
   font-size: 0.5rem; }
@@ -181,6 +288,11 @@ h1 {
   top: -1rem;
   left: 0.3rem;
   z-index: -1; }
+  @media screen and (min-width: 375px) {
+    #decorative-quotes {
+      height: 3.2rem;
+      top: -2rem;
+      left: -0.7rem; } }
 
 .signup-form {
   position: absolute;
@@ -197,13 +309,34 @@ h1 {
   justify-content: space-evenly;
   padding: 0.5rem 1.9rem;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.24); }
+  @media screen and (min-width: 375px) {
+    .signup-form {
+      height: 17rem;
+      width: 54rem;
+      bottom: -7rem; } }
 
 .signup-form h3 {
   font-size: 1.1rem; }
+  @media screen and (min-width: 375px) {
+    .signup-form h3 {
+      font-size: 2rem; } }
 
 .signup-form p {
   text-align: center;
   line-height: 1.2rem; }
+  @media screen and (min-width: 375px) {
+    .signup-form p {
+      text-align: center;
+      line-height: 1.2rem;
+      max-width: 39rem; } }
+
+.signup-form div {
+  width: 100%; }
+  @media screen and (min-width: 375px) {
+    .signup-form div {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; } }
 
 .submit-button {
   width: 100%;
@@ -212,6 +345,9 @@ h1 {
   border: none;
   background: #64e1d9;
   color: white; }
+  @media screen and (min-width: 375px) {
+    .submit-button {
+      width: 14rem; } }
 
 .email-input {
   width: 100%;
@@ -222,12 +358,34 @@ h1 {
   padding-left: 2rem;
   color: #808080a6;
   font-size: 0.7rem; }
+  @media screen and (min-width: 375px) {
+    .email-input {
+      width: 31rem; } }
 
 footer {
   background: #0a1423;
   padding-top: 15.7rem;
   padding-left: 1.5rem;
   padding-right: 2.5rem; }
+  @media screen and (min-width: 375px) {
+    footer {
+      padding-top: 12.5rem;
+      padding-left: 6.5rem; } }
+
+@media screen and (min-width: 375px) {
+  footer div {
+    display: flex;
+    justify-content: space-between; } }
+
+@media screen and (min-width: 375px) {
+  #find-us-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    max-width: 49rem;
+    justify-items: center; }
+    #find-us-list > li:first-child {
+      grid-row: 1/-1; } }
 
 .footer-logo {
   margin-left: 1rem;
@@ -274,6 +432,9 @@ header {
   height: 26rem;
   background: #1b2330;
   position: relative; }
+  @media screen and (min-width: 375px) {
+    header {
+      height: 145vh; } }
 
 nav {
   display: flex;
@@ -285,6 +446,12 @@ nav {
   color: #d2d2d2;
   font-size: 0.8rem;
   font-family: 'Raleway', sans-serif; }
+  @media screen and (min-width: 375px) {
+    nav {
+      font-size: 1.1rem;
+      padding-top: 4.5rem;
+      padding-left: 5.1rem;
+      padding-right: 5.1rem; } }
 
 .nav-menu {
   display: flex;
@@ -292,9 +459,19 @@ nav {
   align-items: center;
   justify-content: space-around;
   width: 11rem; }
+  @media screen and (min-width: 375px) {
+    .nav-menu {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      justify-content: space-between;
+      width: 17rem; } }
 
 .home-logo {
   height: 1.5rem; }
+  @media screen and (min-width: 375px) {
+    .home-logo {
+      height: 3.2rem; } }
 
 .base-image {
   position: absolute;

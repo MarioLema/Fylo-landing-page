@@ -26,6 +26,7 @@
 
 <body>
   <!-- <img src="design/mobile-design.jpg" alt="" class="base-image"> -->
+  <!-- <img src="design/desktop-design.jpg" alt="" class="base-image"> -->
   <header>
       <nav>
           <img src="images/logo.svg" alt="fylo logo" class="home-logo">
@@ -36,11 +37,13 @@
           </ul>
         </nav>
         <img src="images/illustration-intro.png" alt="" class="intro-illustration">
+        <!-- <img src="images/bg-curvy-mobile.svg" alt="" class="bg-curve"> -->
+        <img class="bg-curve" src="images/bg-curvy-desktop.svg" alt="" sizes="" srcset="images/bg-curvy-mobile.svg 375w">
 
   </header>
 
   <section class="intro-section">
-      <img src="images/bg-curvy-mobile.svg" alt="" class="bg-curve">
+
     <h1>All your files in one secure location, accessible anywhere.</h1>
     <p>Fylo stores all your most important files in one secure location. Access them wherever
       you need, share and collaborate with friends family, and co-workers.</p>
@@ -124,13 +127,16 @@
       <h3>Get early access today</h3>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
         questions, our support team would be happy to help you.</p>
+        <div>
       <input class="email-input" type="email" name="" id="" placeholder="email@example">
       <input class="submit-button" type="button" value="Get Started For Free">
+    </div>
     </form>
   </section>
   <footer>
     <img src="images/logo.svg" alt="" class="footer-logo">
-    <ul class="footer-list">
+    <div>
+    <ul class="footer-list" id="find-us-list">
       <li><img src="images/icon-location.svg" alt=""><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna aliqua</p></li>
           <li><img src="images/icon-phone.svg" alt=""><a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
@@ -152,6 +158,7 @@
       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
       <li><a href="#"><i class="fab fa-instagram"></i></a></li>
     </ul>
+  </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.

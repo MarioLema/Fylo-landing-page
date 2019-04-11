@@ -3,7 +3,34 @@ footer {
 	padding-top: 15.7rem;
 	padding-left: 1.5rem;
 	padding-right: 2.5rem;
+
+	@include responsive(laptop){
+		padding-top: 12.5rem;
+		padding-left: 6.5rem;
+	}
 }
+footer div{
+	@include responsive(laptop){
+display: flex;
+	justify-content: space-between;
+	}
+}
+#find-us-list{
+	@include responsive(laptop){
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(2,1fr);
+		max-width: 49rem;
+		justify-items: center;
+
+		& > li:first-child{
+			grid-row: 1/-1;
+		}
+	}
+
+
+}
+
 .footer-logo{
     margin-left: 1rem;
     margin-bottom:2.5rem;
