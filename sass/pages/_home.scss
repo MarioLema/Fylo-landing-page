@@ -1,8 +1,12 @@
 .intro-section {
-	height: 17rem;
-	text-align: center;
-	padding: 3rem 0;
-	position: relative;
+		text-align: center;
+		padding: 40% 0 0 0;
+		position: relative;
+		background: url(../images/bg-curvy-desktop.svg);
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: contain;
+		margin-top: -31%;
 
 	@include responsive(laptop) {
 		height: 0rem;
@@ -52,21 +56,8 @@
 	}
 }
 
-.image-headers {
-	position: relative;
-	margin-bottom: 2rem;
-}
-
-.bg-curve {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-}
-
 //==========================
 .pros-section {
-	height: 75rem;
 	text-align: center;
 	padding: 5rem 0;
 	display: flex;
@@ -89,12 +80,12 @@
 
 //==========================
 .productive-section {
-	height: 40rem;
-	text-align: center;
+		text-align: center;
+		padding-bottom: 5rem;
 
 
 	@include responsive(laptop) {
-		height: 35rem;
+		// height: 35rem;
 		text-align: center;
 		display: flex;
 		max-width: 90rem;
@@ -104,7 +95,7 @@
 	}
 
 	@include responsive(small) {
-		height: 55rem;
+		// height: 55rem;
 	}
 }
 
@@ -131,7 +122,7 @@
 
 }
 
-.productive-section h3 {
+.productive-section h2 {
 	font-size: 1.2rem;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
@@ -206,15 +197,13 @@
 
 //==============================
 .testimonials-section {
-	height: 45rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 4rem 0;
+	padding: 5rem 0;
 
 	@include responsive(laptop){
-		height: 27rem;
 		flex-direction: row;
 		max-width: 74rem;
 		margin: auto;
@@ -223,7 +212,6 @@
 
 	@include responsive(medium){
 		flex-direction: column;
-		height: 51rem;
 	}
 }
 
