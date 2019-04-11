@@ -102,6 +102,10 @@
 		align-items: center;
 		justify-content: space-between;
 	}
+
+	@include responsive(small) {
+		height: 55rem;
+	}
 }
 
 .productive-section div {
@@ -114,6 +118,17 @@
 		margin-right: 7rem;
 		max-width: 34rem;
 	}
+
+	@include responsive(medium) {
+		margin-right: 3rem;
+	}
+
+	@include responsive(small) {
+		margin-right: 0;
+		margin: auto;
+	}
+
+
 }
 
 .productive-section h3 {
@@ -147,6 +162,12 @@
 	border-bottom: solid 1px;
 	padding-bottom: 0.3rem;
 
+	include hover{
+		&:hover{
+			color: $Cyan !important;
+		}
+	}
+
 	@include responsive(laptop){
 		font-size: 1.1rem;
 		display: inline-block;
@@ -173,6 +194,14 @@
 		margin: 0;
 		margin-left: 6rem;
 	}
+
+	@include responsive(medium){
+			margin-left: 2rem;
+			margin-right: 3rem;
+	}
+	@include responsive(small){
+		width: 65%;
+	}
 }
 
 //==============================
@@ -190,6 +219,11 @@
 		max-width: 74rem;
 		margin: auto;
 		justify-content: space-around;
+	}
+
+	@include responsive(medium){
+		flex-direction: column;
+		height: 51rem;
 	}
 }
 

@@ -1,11 +1,8 @@
-// @import "abstracts/_functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
 
 @import "base/base";
-@import "base/animations";
 @import "base/typography";
-// @import "base/_utilities";
 
 @import "pages/home";
 
@@ -14,20 +11,7 @@
 @import "components/pro-cards";
 @import "components/testimonial-cards";
 @import "components/signup";
-// @import "components/_story";
-// @import "components/_bg-video";
-// @import "components/_form";
 
-
-@import "layout/header";
 @import "layout/footer";
 @import "layout/navigation";
-
-.base-image {
-	position: absolute;
-	z-index: -100;
-	width: 100%;
-	top: 0;
-	left: 0;
-}
 

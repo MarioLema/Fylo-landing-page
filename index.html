@@ -4,41 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <title>Fylo landing page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-  <!-- <img src="design/mobile-design.jpg" alt="" class="base-image"> -->
-  <!-- <img src="design/desktop-design.jpg" alt="" class="base-image"> -->
   <header>
-      <nav>
-          <img src="images/logo.svg" alt="fylo logo" class="home-logo">
-          <ul class="nav-menu">
-            <li class="nav-menu__item">Features</li>
-            <li class="nav-menu__item">Team</li>
-            <li class="nav-menu__item">Sign In</li>
-          </ul>
-        </nav>
-        <img src="images/illustration-intro.png" alt="" class="intro-illustration">
-        <!-- <img src="images/bg-curvy-mobile.svg" alt="" class="bg-curve"> -->
-        <img class="bg-curve" src="images/bg-curvy-desktop.svg" alt="" sizes="" srcset="images/bg-curvy-mobile.svg 375w">
+    <nav>
+      <img src="images/logo.svg" alt="fylo logo" class="home-logo">
+      <ul class="nav-menu">
+        <li class="nav-menu-item">Features</li>
+        <li class="nav-menu-item">Team</li>
+        <li class="nav-menu-item">Sign In</li>
+      </ul>
+    </nav>
+    <img src="images/illustration-intro.png" alt="" class="intro-illustration">
+    <img class="bg-curve" src="images/bg-curvy-desktop.svg" alt="" sizes=""
+      srcset="images/bg-curvy-mobile.svg 864w, images/bg-curvy-desktop.svg 1440w">
 
   </header>
 
@@ -49,6 +34,7 @@
       you need, share and collaborate with friends family, and co-workers.</p>
     <button class="intro-button">Get Started</button>
   </section>
+
   <section class="pros-section">
     <div class="pro-info-card">
       <img src="images/icon-access-anywhere.svg" alt="">
@@ -78,6 +64,7 @@
         file types to be securely stored and shared.</p>
     </div>
   </section>
+
   <section class="productive-section">
     <img src="images/illustration-stay-productive.png" alt="" class="productive-image">
     <div>
@@ -92,6 +79,7 @@
     </div>
 
   </section>
+
   <section class="testimonials-section">
     <div class="testimonial-card">
       <img src="images/bg-quotes.png" alt="" id="decorative-quotes">
@@ -122,46 +110,51 @@
       </div>
     </div>
   </section>
+
   <section class="newsletter-signup">
     <form action="" method="post" class="signup-form">
       <h3>Get early access today</h3>
       <p>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
         questions, our support team would be happy to help you.</p>
-        <div>
-      <input class="email-input" type="email" name="" id="" placeholder="email@example">
-      <input class="submit-button" type="button" value="Get Started For Free">
-    </div>
+      <div>
+        <input class="email-input" type="email" name="" id="" placeholder="email@example">
+        <input class="submit-button" type="button" value="Get Started For Free">
+      </div>
     </form>
   </section>
+
+
   <footer>
     <img src="images/logo.svg" alt="" class="footer-logo">
     <div>
-    <ul class="footer-list" id="find-us-list">
-      <li><img src="images/icon-location.svg" alt=""><p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua</p></li>
-          <li><img src="images/icon-phone.svg" alt=""><a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
-          <li><img src="images/icon-email.svg" alt=""><a href="mailto:example@fylo.com">example@fylo.com</a></li>
-    </ul>
-    <ul class="footer-list">
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Jobs</a></li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
-    <ul class="footer-list">
-      <li><a href="#">Contact Us</a></li>
-      <li><a href="#">Terms</a></li>
-      <li><a href="#">Privacy</a></li>
-    </ul>
-    <ul class="footer-list social-links">
-      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-  </div>
+      <ul class="footer-list" id="find-us-list">
+        <li><img src="images/icon-location.svg" alt="">
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua</p>
+        </li>
+        <li><img src="images/icon-phone.svg" alt=""><a href="tel:+1-543-123-4567">+1-543-123-4567</a></li>
+        <li><img src="images/icon-email.svg" alt=""><a href="mailto:example@fylo.com">example@fylo.com</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+      <ul class="footer-list">
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+      <ul class="footer-list social-links">
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Design by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#https://github.com/MarioLema">Mario Lema</a>.
     </p>
   </footer>
 </body>

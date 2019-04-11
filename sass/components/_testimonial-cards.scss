@@ -1,45 +1,51 @@
 .testimonial-card {
 	max-width: 17.5rem;
-	background:$Dark-Blue-4;
+	background: $Dark-Blue-4;
 	border-radius: 5px;
 	padding: 2rem 1.5rem 0.8rem 1.3rem;
 	position: relative;
 	box-shadow: 0px 0px 2px 0px rgba(125, 125, 125, 0.16);
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		max-width: 22.5rem;
 		padding: 2.9rem 1.6rem 1rem 1.4rem;
 	}
 }
+
 .testimonial-card p {
 	font-size: 0.6rem;
 	line-height: 1.1rem;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		font-size: 0.9rem;
 		line-height: 1.3rem;
 	}
 }
-.testimonial-card img{
+
+.testimonial-card img {
 	height: 1.5rem;
 	border-radius: 50%;
 	float: left;
 	margin-right: 0.5rem;
 }
-.testimonial-card div{
+
+.testimonial-card div {
 	margin-top: 0.8rem;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		margin-top: 1rem;
 	}
 }
-.testimonial-card div p{
+
+.testimonial-card div p {
 	font-size: 0.5rem;
 }
-.testimonial-card h6{
+
+.testimonial-card h6 {
 	letter-spacing: 0.6px;
 	font-size: 0.6rem;
 }
+
 #decorative-quotes {
 	border-radius: unset;
 	position: absolute;
@@ -48,7 +54,7 @@
 	left: 0.3rem;
 	z-index: -1;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		height: 3.2rem;
 		top: -2rem;
 		left: -0.7rem;

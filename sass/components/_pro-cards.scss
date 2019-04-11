@@ -1,34 +1,37 @@
-.pro-info-card{
-        height: 13rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+.pro-info-card {
+	height: 13rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	justify-content: space-around;
-	
 
-	@include responsive(laptop){
+
+	@include responsive(laptop) {
 		height: 13rem;
 	}
 }
+
 .pro-info-card img {
 	height: 4rem;
 	margin-bottom: 2rem;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		height: 5rem;
 		margin-bottom: 0.5rem;
 	}
 }
+
 .pro-info-card p {
 	max-width: 20rem;
 	margin: auto;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		max-width: 22rem;
 		margin: auto;
 		font-size: 0.9rem;
 	}
 }
+
 .pro-info-card h3 {
 	font-size: 1.1rem;
 	line-height: 1.2rem;

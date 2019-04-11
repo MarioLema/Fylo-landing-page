@@ -4,63 +4,76 @@ footer {
 	padding-left: 1.5rem;
 	padding-right: 2.5rem;
 
-	@include responsive(laptop){
+	@include responsive(laptop) {
 		padding-top: 12.5rem;
 		padding-left: 6.5rem;
 	}
 }
-footer div{
-	@include responsive(laptop){
-display: flex;
-	justify-content: space-between;
+
+footer div {
+	@include responsive(laptop) {
+		display: flex;
+		justify-content: space-between;
 	}
 }
-#find-us-list{
-	@include responsive(laptop){
+
+#find-us-list {
+	@include responsive(laptop) {
 		display: grid;
-		grid-template-columns: repeat(2,1fr);
-		grid-template-rows: repeat(2,1fr);
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 		max-width: 49rem;
 		justify-items: center;
 
-		& > li:first-child{
+		&>li:first-child {
 			grid-row: 1/-1;
 		}
 	}
 
+	@include responsive(medium) {
+		max-width: 32rem;
+	}
+
 
 }
 
-.footer-logo{
-    margin-left: 1rem;
-    margin-bottom:2.5rem;
+.footer-logo {
+	margin-left: 1rem;
+	margin-bottom: 2.5rem;
 }
+
 .footer-list {
 	text-decoration: none;
 	list-style: none;
 	margin-bottom: 4rem;
 	font-size: 1rem;
 }
+
 .footer-list li {
 	display: flex;
 	align-items: start;
 	margin-bottom: 1.5rem;
 }
+
 .footer-list a {
-text-decoration: none;
-color: $White;
+	text-decoration: none;
+	color: $White;
 }
-.footer-list img{
-    height: 1rem;
-    margin-right: 2rem;
+
+.footer-list img {
+	height: 1rem;
+	margin-right: 2rem;
 }
-.footer-list p{
-    display: inline;
+
+.footer-list p {
+	display: inline;
 }
+
 .social-links {
 	display: flex;
 	justify-content: center;
 }
+
 .social-links li {
 	border: solid white 1px;
 	font-size: 0.7rem;
@@ -70,4 +83,15 @@ color: $White;
 	align-items: center;
 	justify-content: center;
 	margin: 0 0.5rem;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	padding-bottom: 0.5rem;
+}
+
+.attribution a {
+	color: green;
+	text-decoration: none;
 }

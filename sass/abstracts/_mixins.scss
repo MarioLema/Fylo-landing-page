@@ -1,15 +1,13 @@
-//media query manager
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
+//MEDIA QUERY MANAGER
 @mixin responsive($size){
     @if $size == laptop{
-        @media screen and (min-width: 375px){ @content };
+        @media screen and (min-width: 54rem){ @content };
     }
-    // Extra large devices (large desktops, 1440px and up)
-    @if $size == bigScreen{
-        @media screen and (min-width: 90rem){ @content };
+    @if $size == small{
+        @media screen and (max-width: 54rem){ @content };
+    }
+    @if $size == medium{
+        @media screen and (max-width: 74rem){ @content };
     }
 }
 

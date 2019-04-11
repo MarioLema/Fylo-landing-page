@@ -7,8 +7,17 @@
 	border-radius: 24px;
 	margin-top: 1rem;
 	font-weight: bold;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.43);
+	cursor: pointer;
 
-@include responsive(laptop){
+	@include hover {
+		&:hover {
+			box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.78);
+			transform: translateY(-1px);
+		}
+
+	}
+	@include responsive(laptop) {
 		border: none;
 		width: 17.5rem;
 		height: 3.5rem;
