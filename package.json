@@ -11,8 +11,8 @@
 
     
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "prefix:css": "postcss css/style.concat.css --use autoprefixer -d css/prefix",
-    "compress:css": "node-sass css/prefix/style.concat.css css/style.css --output-style compressed",
+    "prefix:css": "postcss css/style.comp.css --use autoprefixer -d css/prefix",
+    "compress:css": "node-sass css/prefix/style.comp.css css/style.css --output-style compressed",
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "repository": {
